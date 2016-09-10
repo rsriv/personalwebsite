@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="animations.css">
+<head>
+    <title>Rishi Srivastava | Projects</title>
+    <style>
+        #slash{
+            padding-right: 10px;
+            float: right;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #FFFFFF;
+
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 28px 36px;
+            text-decoration: none;
+            width: 50px;
+            font-family: Avenir;
+            filter:alpha(opacity=0);
+            -webkit-transition:300ms ease;
+            -moz-transition:300ms ease;
+            -o-transition:300ms ease;
+            transition:300ms ease;
+
+        }
+
+        li a:hover {
+            background-color: #1d5591;
+            font-family: "Avenir Next";
+            color: white;
+            filter:alpha(opacity=0);
+            -webkit-transition:300ms ease;
+            -moz-transition:300ms ease;
+            -o-transition:300ms ease;
+            transition:300ms ease;
+
+        }
+        body{
+            background-color: #152d58;
+        }
+
+        h1{
+            font-family: "Avenir Next";
+            color: white;
+            padding-left: 10px;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        h3{
+            font-family: Avenir;
+            font-weight: 500;
+            color: #fff749;
+            font-size: x-large;
+            margin-bottom: 0;
+        }
+        h4{
+            font-family: Avenir;
+            font-weight: 400;
+            color: #fff;
+            font-size: medium;
+            margin-top: 0;
+        }
+        #icons{
+            width: 100px;
+
+        }
+        .links{
+            color: #fff749;
+        }
+        nav{
+            position: fixed;
+        }
+        #page{
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a class="active" href="projects.html">Projects</a></li>
+    <li><a href="RishiSrivastava_Resume.pdf">Resume</a></li>
+    <img id="slash" src="slashlogo.jpg">
+</ul>
+<div id="page" class="slideRight">
+<br><br>
+
+<h1>Projects</h1>
+<br><br>
+<table style="margin-top: 0">
+    <tr>
+        <td>
+        <img id ="icons" src="cdlogo.png">
+        </td>
+        <td style="padding-left: 20px">
+            <h3>clouddrums - session drummer (550+ downloads)</h3>
+            <h4>clouddrums is the first virtual session drummer and random beat generator.
+                Use it as a tool for freestyling, jamming, recording and training. I created an algorithm to generate a
+                random piano roll drum beat and a player that can read and play the piano roll at user's tempo and kit
+                type.<br>
+                Technologies used: Xcode + Swift for iOS, Java + Android Studio for Android, Python + Django + HTML + CSS
+                + JavaScript for Web <br>
+                <a class="links" href="https://play.google.com/store/apps/details?id=com.clouddrums.clouddrums2&hl=en">Play Store</a>
+                | <a class="links" href="https://itunes.apple.com/us/app/clouddrums/id1145678400?ls=1&mt=8">App Store</a>
+             | <a class="links" href="http://clouddrums.com">clouddrums.com (coming soon)</a></h4>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+        <img id ="icons" src="ttlogo.png">
+        </td>
+        <td style="padding-left: 20px">
+            <h3>TouchTypes - Typing Test</h3>
+            <h4>Test your typing speed with TouchTypes. TouchTypes with your friends! TouchTypes with everyone today!
+                I taught myself basic Android Development in one week and built the app.<br>
+                Technologies used: Java + Android Studio<br>
+                 <a class="links" href="https://play.google.com/store/apps/details?id=com.clouddrums.clouddrums&hl=en">Play Store</a></h4>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+        <img id ="icons" src="cislogo.png">
+        </td>
+        <td style="padding-left: 20px">
+            <h3>Cistel App 0001</h3>
+            <h4>Made during tenure as Software Developer Intern for Cistel Inc, Cistel App 0001 is a secure directory of
+                150+ employees. Learned Android and iOS development within a few months to create app for employees on both
+                major platforms. Implemented search function to index directory by first or last name, designed password
+                based security and authentication system and wrote maintenance plan for both Android and iOS versions.
+                <br>
+                Technologies used: Xcode + Swift for iOS, Java + Android Studio for Android<br>
+                <a class="links" href="https://play.google.com/store/apps/details?id=com.cistel.cisteldirectory&hl=en">Play Store</a></h4>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <img id ="icons" src="htmllogo.png">
+        </td>
+        <td style="padding-left: 20px">
+            <h3>this.website;</h3>
+            <h4>This website was made using HTML and CSS, along with some JavaScript for animations and functionality.
+                It is hosted using cPanel.
+                <br>
+                Technologies used: HTML + CSS + JavaScript + cPanel<br>
+            </h4>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <img id ="icons" src="htmllogo.png">
+        </td>
+        <td style="padding-left: 20px">
+            <h3>Unnamed Audio API Project</h3>
+            <h4>I am currently working on using the HTML5/JavaScript Audio API create an engine to take a poorly recorded
+                drum sound that "hears" when each drum sound (eg. hi hat, snare) is being played based on a frequency
+                analyser. Then, where each poor quality sound has been heard, it can be replaced with a stock, studio
+                recorded drum sound. Essentially, this will allow poor quality drum recordings to be transformed into
+                studio sound.
+                <br>
+                Technologies used: HTML5 + JavaScript + Audio API<br>
+          </h4>
+        </td>
+    </tr>
+</table>
+    </div>
+</body>
+</html>

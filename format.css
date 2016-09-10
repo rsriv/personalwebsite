@@ -1,0 +1,124 @@
+#name {
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 100px;
+    padding-bottom: 0px;
+    text-align: center;
+    color: #ffffff;
+    display: inline-block;
+}
+#lastname {
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 100px;
+    padding-bottom: 0px;
+    text-align: center;
+    color: #1d5591;
+    display: inline-block;
+}
+#subtitle{
+    font-family: Avenir;
+    font-size: 33px;
+    color: #b4b4b4;
+    display: inline-block;
+
+}
+#slash{
+    padding-right: 10px;
+    float: right;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 28px 36px;
+    text-decoration: none;
+    width: 50px;
+    font-family: Avenir;
+    filter:alpha(opacity=0);
+    -webkit-transition:300ms ease;
+    -moz-transition:300ms ease;
+    -o-transition:300ms ease;
+    transition:300ms ease;
+
+}
+
+li a:hover {
+    background-color: #1d5591;
+    font-family: "Avenir Next";
+    color: white;
+    filter:alpha(opacity=0);
+    -webkit-transition:300ms ease;
+    -moz-transition:300ms ease;
+    -o-transition:300ms ease;
+    transition:300ms ease;
+
+}
+
+body{
+    background-color: #152d58;
+}
+#logos{
+    width: 30%;
+    display: inline-block;
+    float: left;
+}
+h1{
+    font-family: Avenir;
+    color: #fff749;
+    font-size: medium;
+    font-weight: 300;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding-left: 7px;
+}
+p{
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+nav{
+    position: fixed;
+}
+#page{
+    visibility: hidden;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

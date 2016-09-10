@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="animations.css">
+<head>
+    <title>Rishi Srivastava | About</title>
+    <style>
+        #slash{
+            padding-right: 10px;
+            float: right;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #FFFFFF;
+
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 28px 36px;
+            text-decoration: none;
+            width: 50px;
+            font-family: Avenir;
+            filter:alpha(opacity=0);
+            -webkit-transition:300ms ease;
+            -moz-transition:300ms ease;
+            -o-transition:300ms ease;
+            transition:300ms ease;
+        }
+
+        li a:hover {
+            background-color: #1d5591;
+            font-family: "Avenir Next";
+            color: white;
+            filter:alpha(opacity=0);
+            -webkit-transition:300ms ease;
+            -moz-transition:300ms ease;
+            -o-transition:300ms ease;
+            transition:300ms ease;
+
+        }
+        body{
+            background-color: #152d58;
+        }
+        .columns{
+            width: 33%;
+            padding-left: 10px;
+            padding-right: 20px;
+            vertical-align: top;
+        }
+        h1{
+            font-family: "Avenir Next";
+            color: white;
+            padding-left: 0px;
+        }
+        h3{
+            font-family: Avenir;
+            font-weight: 100;
+            color: #fff749;
+            font-size: x-large;
+        text-align: left;
+        }
+        nav{
+            position: fixed;
+            top: 0px;
+        }
+        #page{
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a class="active" href="about.html">About</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="RishiSrivastava_Resume.pdf">Resume</a></li>
+    <img id="slash" src="slashlogo.jpg">
+</ul>
+<div id="page" class="slideRight">
+<br><br><br><br>
+<table style="width:100%; text-align: justify">
+    <tr>
+        <td class="columns">
+            <h1>Technology</h1>
+
+        </td>
+
+        <td class="columns">
+            <h1>Music</h1>
+        </td>
+
+        <td class="columns">
+            <h1>Entrepreneurship</h1>
+        </td>
+    </tr>
+    <tr>
+        <td class="columns">
+            <h3>Technology is one of my primary interests. I am a Computer Engineering student at the University of Waterloo
+                building experience in the field through school, co-op and personal projects. You can read more about my
+                projects in the projects section of the website. I enjoy software development and algorithm design and I
+                strive to strengthen my software skill set at school and at home. I am interested in both software and hardware
+                and I enjoy exploring the possibilities of computing in music.</h3>
+        </td>
+        <td class="columns">
+            <h3>I have been building my skills with the guitar and drums for years now and I'm
+                always looking to take up new instruments. Many of my software projects involve music - including an
+                algorithm to accurately create correct drum beats and the use of the JavaScript/HTML5 Audio API. I also love
+                recording and producing music, and I have produced a song that has been played on local radio.
+                Check out my SoundCloud here: <a style="color: #fff749" href="http://soundcloud.com/crush_music">
+                    soundcloud.com/crush_music</a></h3>
+        </td>
+        <td class="columns">
+            <h3>For me, entrepreneurship is a source of an excitement and energy paralleled by nothing.
+                Except for maybe music. In 2013, I started BluesAndStuff Studios - a guitar school that provided
+                structured, straightforward lessons to the Ottawa Area. I vividly remember the excitement as I designed the product
+                (a customizable lesson plan) and built a client base. I look forward to having this feeling in the future
+                as I start my next venture.</h3>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>
